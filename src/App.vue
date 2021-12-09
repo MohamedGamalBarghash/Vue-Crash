@@ -3,6 +3,7 @@
     <Header :showAddTask="showAddTask" @toggle-add-task="toggleAddTask" />
     <AddTask @add-task="addTask" v-show="showAddTask" />
     <Tasks @toggle-reminder="toggleReminder" @delete-task="deleteTask" :tasks="tasks" />
+    <p>dbl-click to mark the task as completed</p>
   </div>
 </template>
 
@@ -64,5 +65,12 @@ export default {
 <style scoped>
  div {
    border: 0.5px solid black;
+ }
+
+ p {
+   padding-top: 2rem;
+   text-align: center;
+   font-size: 0.7rem;
+   color: rgba(0,0,0, 0.5);
  }
 </style>

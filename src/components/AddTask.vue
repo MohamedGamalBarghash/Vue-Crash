@@ -11,6 +11,11 @@
         <input name="reminder" type="checkbox" class="checkBox" v-model="reminder">
         </div>
         <div style="height: 2em"></div>
+        <div style="justify-content: space-between;">
+        <label>Are you stupid?</label>
+        <input name="stupidity" type="checkbox" class="checkBox">
+        </div>
+        <div style="height: 2em"></div>
         <input :click='onSubmit' type="submit" value="Add" class="submitButton">
         <div style="height: 3em"></div>
     </form>
@@ -72,7 +77,8 @@ label {
 }
 
 .checkBox {
-    margin: 0px 0px 0px 500px;
+    float: right;
+    margin: 0px 80% 0px 0px;
     width: 1.5em;
     height: 1.5em;
 }
