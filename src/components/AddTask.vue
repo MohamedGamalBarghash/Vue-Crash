@@ -13,7 +13,7 @@
         <div style="height: 2em"></div>
         <div style="justify-content: space-between;">
         <label>Are you stupid?</label>
-        <input name="stupidity" type="checkbox" class="checkBox">
+        <input name="stupidity" type="checkbox" class="checkBox" id="stupidityTest">
         </div>
         <div style="height: 2em"></div>
         <input :click='onSubmit' type="submit" value="Add" class="submitButton">
@@ -51,6 +51,7 @@ export default {
             this.text = '';
             this.day = '';
             this.reminder = false;
+            document.querySelector("#stupidityTest").checked = false;
         }
     },
     emits: ["add-task"],

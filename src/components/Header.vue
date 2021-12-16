@@ -1,7 +1,7 @@
 <template>
     <header>
         <p>Task Manager</p>
-        <Button @toggle-add-task="$emit('toggle-add-task')" :text='showAddTask ? "Close" : "Add Task"' :color='showAddTask ? "red" : "green"' />
+        <Button title="Tap to show/unshow the Add Task form" @toggle-add-task="$emit('toggle-add-task')" :text='showAddTask ? "Close" : "Add Task"' :color='showAddTask ? "red" : "green"' />
     </header>
 </template>
 

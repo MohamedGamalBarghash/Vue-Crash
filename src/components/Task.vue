@@ -5,7 +5,7 @@
             <h4>{{ task.day }}</h4>
         </div>
         <div class="opera">
-            <img @click="onDelete(task.id)" src="red-x.png">
+            <img @click="onDelete(task.id)" src="red-x.png" title="Tap to delete the task">
         </div>
     </div>
 </template>
