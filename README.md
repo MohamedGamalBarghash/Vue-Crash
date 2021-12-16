@@ -1,24 +1,23 @@
-# vue-crash
+# VUE TASK MANAGER APP
+- This is my first project with Vue. It's just a simple task manager that lets you mark the task as completed or something, delete it, or add a whole new task.
 
-## Project setup
-```
-npm install
-```
+# PREVIEW
+![Output](https://github.com/MohamedGamalBarghash/Vue-Crash/blob/master/Screenshots/Task%20Manager%2001.png)
+This is the first open screen of the project, you can choose to remove these default tasks as you wish.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+![Output](https://github.com/MohamedGamalBarghash/Vue-Crash/blob/master/Screenshots/Task%20Manager%2002.png)
+This is what you see when you click the `Add Task` button, which is a form to add a new task to the app.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+# INSTRUCTIONS
+- Download the `dist` folder.
+- Run the `index.html`.
+- Enjoy the task manager app.
 
-### Lints and fixes files
-```
-npm run lint
-```
+# TECHNOLOGIES USED IN PROJECT
+- `Visual Studio Code` for coding.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# AUTHORS
+- Mohamed Barghush
+
+# NOTES
+- The app doesn't save and load tasks, it's just like this, you use it, you continue your life trying to be happy.
